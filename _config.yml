@@ -4,12 +4,12 @@
 
 # Site
 title: 飚速蜗牛
-subtitle: '千里之行始于足下'
-description: '大道至简'
+subtitle: '不积跬步无以至千里'
+description: '积沙成山'
 keywords:
 author: iymb
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -99,10 +99,14 @@ ignore:
 ## theme: landscape
 theme: next
 
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/iymbcoder/iymbcoder.github.io.git
-  branch: main
+  type: ''
+  
+search:
+path: search.xml
+field: post
+format: html
+limit: 10000
+
