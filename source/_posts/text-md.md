@@ -1,5 +1,5 @@
 ---
-title: text.md
+title: text-blog
 date: 2024-03-02 02:00:09
 categories: hexo博客主题配置
 tags: Next主题美化
